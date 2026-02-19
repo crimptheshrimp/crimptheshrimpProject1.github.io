@@ -1,0 +1,29 @@
+<html>
+    <!--Main home page of code. Displays instructions and the overview of the quiz with some random pictures-->
+    <!--Created handleHome, randomPicture with 2 outputs, and handleStartQuiz without function bodies-->
+    <title>
+            crimptheshrimps Quizlet
+    </title>
+    <span>
+        <h1>Quizlet</h1>
+        <h2 onClick={handleHome}>Home</h2>
+    </span>
+    <body>
+        <p>This quiz will test your ability to NAME THAT POP SINGER. Please read through the how to rules below before continuing, and see the example question to understand the quiz. Click 'Start Quiz' when you are ready!</p>
+        <h5><strong>How to quiz :</strong></h5>
+        <br>
+        <ul>
+            <li>Answers are given as blank responses, multiple choice or true or false</li>
+            <li>The quiz will ask you about pop singers from 2000-2020</li>
+            <li>You will be asked the 5 questions in a random order</li>
+            <li>Videos will be supplied with captions to help</li>
+        </ul>
+        <img href={randomPicture[0]} />
+        <img href={randomPicture[1]} />
+    </body>
+    <footer>
+        <h1 onClick={handleStartQuiz}>
+            Start Quiz
+        </h1>
+    </footer>
+</html>
