@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
     <!--Main home page of code. Displays instructions and the overview of the quiz with some random pictures-->
     <!--Created handleHome, randomPicture with 2 outputs, and handleStartQuiz without function bodies-->
@@ -5,8 +7,14 @@
             crimptheshrimps Quizlet
     </title>
     <span>
-        <h1>Quizlet</h1>
-        <h2 onClick={handleHome}>Home</h2>
+        <h1>
+            Quizlet
+        </h1>
+        <h2 class="button">
+            <a href='Index.html'>
+                Home
+            </a>
+        </h2>
     </span>
     <body>
         <p>This quiz will test your ability to NAME THAT POP SINGER. Please read through the how to rules below before continuing, and see the example question to understand the quiz. Click 'Start Quiz' when you are ready!</p>
@@ -22,8 +30,10 @@
         <img href={randomPicture[1]} />
     </body>
     <footer>
-        <h1 onClick={handleStartQuiz}>
-            Start Quiz
-        </h1>
+        <h2 class="button">
+            <a href="'QuizPage.js">
+                Start Quiz
+            </a>
+            </h2>
     </footer>
 </html>
