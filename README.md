@@ -1,7 +1,13 @@
 # crimptheshrimpProject1.github.io
-Where I will commit changes to my first project with Percipio
+Index presents the home page with basic quiz information. It includes a start quiz button and a home button that will feature on all pages.
 
-I've started my project woohoo.
+PictureRandomiser contains a randomiser that pulls different pictures to present them on screen on the Homepage.
 
-19/02/2026 - I have begun drafting how my project will look, researching media query methods.
-            Have also produced a barebones layout for the index html page. Not sure how I inject Java into it yet :=/
+QuizQuestions contains questions and answers with a randomiser to ensure the quiz order is random.
+
+QuizPage will enable the quiz to commence and utilise the QuizQuestions functions to display the questions.
+
+
+
+Sources:
+https://stackoverflow.com/questions/59671375/importing-a-javascript-function-into-html Injecting my functions into HTML.
